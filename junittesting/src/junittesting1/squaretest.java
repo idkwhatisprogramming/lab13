@@ -7,8 +7,11 @@ class squaretest {
 	
 	void test() {
 		junittesting obj=new junittesting();
-		int output=obj.square(5);
-		assertEquals(25, output);
+		int output=obj.square(25);
+		assertEquals(5, output);
+		
+		int o1=obj.square(5);
+		assertEquals(25,o1);
 	}
 
 }
