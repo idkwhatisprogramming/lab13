@@ -13,5 +13,9 @@ public class squareT {
 		assertEquals(25, output);
 
 	}
+	
+	int a =1;
+	int b=2;
+		
 
 }
